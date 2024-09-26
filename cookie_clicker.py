@@ -66,7 +66,7 @@ def main():
     # click on the language selection (english)
     language_button_element.click()
 
-    # wait for the big cookie to load, on timeouted, raise an exception; grab link to the element
+    # wait for the big cookie to load, on timeout, raise an exception; grab link to the element
     big_cookie_element = wait_and_find_element(driver, By.ID, 'bigCookie', timeout=4)
 
     # farm cookies automatically :)
